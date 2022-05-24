@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batman | 2022</title>
 
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+
+    <link rel="stylesheet" href="vendor/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="scripts/swiper-bundle.min.js"></script>
+    <script defer src="scripts/script.js"></script>
 </head>
 <body>
 <header class="header">
@@ -28,13 +34,13 @@
 
         <ul class="header__social social">
             <li class="social__item">
-                <a href="" class="social__link social__link_fb"></a>
+                <a href="https://www.facebook.com/TheBatman/" target="_blank" class="social__link social__link_fb"></a>
             </li>
             <li class="social__item">
-                <a href="" class="social__link social__link_twitter"></a>
+                <a href="https://twitter.com/TheBatman?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="social__link social__link_twitter"></a>
             </li>
             <li class="social__item">
-                <a href="" class="social__link social__link_instagram"></a>
+                <a href="https://www.instagram.com/thebatman/" target="_blank" class="social__link social__link_instagram"></a>
             </li>
         </ul>
     </nav>
@@ -45,7 +51,12 @@
 </header>
 
 <main class="main main_index">
-    <img src="./images/logo.png" alt="Логотип к фильму Бэтмен" class="logo" width="329" height="235">
+    <picture>
+        <img src="./images/logo-1x.png"
+             srcset="./images/logo-2x.png 2x"
+             alt="Логотип к фильму Бэтмен"
+             class="logo">
+    </picture>
 </main>
 
 <footer class="footer">
